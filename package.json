@@ -1,0 +1,21 @@
+{
+  "name": "typescript-scripts",
+  "version": "1.0.0",
+  "description": "Small TypeScript script runner",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.0"
+  },
+  "packageManager": "pnpm@10.22.0+sha256.053a8493e8e328a3c6d7ff5cb079bef28719152ccf831e4666b5c0332b77bb88"
+}

@@ -31,13 +31,13 @@ export const processLine = (
   return { counter, current };
 };
 
-let counter = 0;
-let current = 50;
+// let counter = 0;
+// let current = 50;
 
-lines.forEach((line) => {
-  const result = processLine({ counter, current }, line);
-  counter = result.counter;
-  current = result.current;
-});
+// lines.forEach((line) => {
+//   const result = processLine({ counter, current }, line);
+//   counter = result.counter;
+//   current = result.current;
+// });
 
-console.log("input", counter, current);
+// console.log("input", counter, current);
